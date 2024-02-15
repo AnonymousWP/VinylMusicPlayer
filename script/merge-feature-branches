@@ -16,9 +16,7 @@ blacklist_branches="
 #  Octoton/VinylMusicPlayer/random_album_access_version_1
 #  MageFroh/VinylMusicPlayer/fix-tag-editor
 #  eliehess/VinylMusicPlayer/hide-album-details-setting
-alien_branches="
-  drizzt/VinylMusicPlayer/jaudiotagger-opus
-"
+alien_branches=""
 
 # Support for CircleCI
 [ -n "${CIRCLE_TAG}" ] && export CI_TAG="${CIRCLE_TAG}"
