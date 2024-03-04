@@ -13,10 +13,10 @@ blacklist_branches="
 
 # Alien branches (from other repos) that we want to pull in (pull requests etc)
 # Space separated list, each following the 'login/repo/branch' format
-#  Octoton/VinylMusicPlayer/random_album_access_version_1
-#  MageFroh/VinylMusicPlayer/fix-tag-editor
 #  eliehess/VinylMusicPlayer/hide-album-details-setting
-alien_branches=""
+alien_branches="
+  ByteHamster/VinylMusicPlayer/monochrome-icon
+"
 
 # Support for CircleCI
 [ -n "${CIRCLE_TAG}" ] && export CI_TAG="${CIRCLE_TAG}"
